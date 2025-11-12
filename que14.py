@@ -1,3 +1,7 @@
-mylist = [1.4, 2, 3, 4, 5, "pawani"]
-mylist.reverse()
-print(mylist)  # Output: ['pawani', 5, 4, 3, 2, 1.4]
+A = "aabbcc"
+B = 98
+ch = chr(B)
+if ch in A:
+    print(A.index(ch))
+else:
+    print(-1)

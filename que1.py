@@ -1,2 +1,12 @@
-A = [1, 2, 3, 4, 5]
-print(sum(A))  # Output: 15
+T = int(input())
+for _ in range(T):
+    s = input().lower()
+    vowels = 0
+    consonants = 0
+    for ch in s:
+        if ch.isalpha():
+            if ch in "aeiou":
+                vowels += 1
+            else:
+                consonants += 1
+    print(vowels, consonants)

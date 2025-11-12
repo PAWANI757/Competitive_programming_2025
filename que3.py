@@ -1,2 +1,7 @@
-A = [1, 2, 3, 4, 5]
-print(max(A), min(A))  # Output: 5 1
+T = int(input())
+for _ in range(T):
+    s = input()
+    if s == s[::-1]:
+        print(1)
+    else:
+        print(0)

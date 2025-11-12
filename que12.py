@@ -1,6 +1,5 @@
-lst = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
-print(lst[:])  # full list
-print(lst[2:5])  # [6, 8, 10]
-print(lst[:2])  # [2, 4]
-print(lst[::2])  # [2, 6, 10, 14, 18]
-print(lst[1::2])  # [4, 8, 12, 16, 20]
+A = "Python45"
+if A.isalnum():
+    print(1)
+else:
+    print(0)
