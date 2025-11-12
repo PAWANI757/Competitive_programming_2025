@@ -1,11 +1,4 @@
-def total_subarray_sum(arr, N):
-    total = 0
-    for i in range(N):
-        total += arr[i] * (i + 1) * (N - i)
-    return total
-
-
-N = int(input("Enter the size of the array: "))
-arr = list(map(int, input("Enter the array elements: ").split()))
-
-print(total_subarray_sum(arr, N))
+A = [1, 2, 3, 4]
+even = len([x for x in A if x % 2 == 0])
+odd = len([x for x in A if x % 2 != 0])
+print(abs(even - odd))  # Output: 0

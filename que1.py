@@ -1,4 +1,2 @@
-N = int(input("Enter the size of the array: "))
-sub = (N * (N + 1)) // 2
-
-print(f"number of subarrays:", sub)
+A = [1, 2, 3, 4, 5]
+print(sum(A))  # Output: 15
