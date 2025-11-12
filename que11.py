@@ -1,5 +1,4 @@
-n = 5
-for i in range(n):
-    print("*" * (n - i) + " " * (2 * i) + "*" * (n - i))
-for i in range(n):
-    print("*" * (i + 1) + " " * (2 * (n - i - 1)) + "*" * (i + 1))
+A1 = [1, 2, 3, 4]
+A2 = [4, 5, 6, 7]
+result = [A1[i] + A2[i] for i in range(len(A1))]
+print(result)  # Output: [5, 7, 9, 11]

@@ -1,7 +1,3 @@
-for i in range(1, 6):
-    for j in range(1, i + 1):
-        if j % 2 == 1:
-            print(j, end=" ")
-        else:
-            print("*", end=" ")
-    print()
+A = [1, 5, 9, 1]
+B = 5
+print(1 if B in A else 0)  # Output: 1

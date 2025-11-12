@@ -1,2 +1,2 @@
-for i in range(5, 0, -1):
-    print("* " * i)
+A = [1, 2, 3, 4, 5]
+print(max(A), min(A))  # Output: 5 1

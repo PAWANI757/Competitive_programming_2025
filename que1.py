@@ -1,2 +1,2 @@
-for i in range(5):
-    print("* " * 5)
+A = [1, 2, 3, 4, 5]
+print(sum(A))  # Output: 15

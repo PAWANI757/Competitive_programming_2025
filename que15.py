@@ -1,5 +1,11 @@
-n = 5
-for i in range(1, n + 1):
-    print("*" * i)
-for i in range(n - 1, 0, -1):
-    print("*" * i)
+s = "Hello everyone how are you"
+print(s.split())  # ['Hello', 'everyone', 'how', 'are', 'you']
+
+s = "Hello-everyone-how are you"
+print(s.split("-"))  # ['Hello', 'everyone', 'how are you']
+
+word = "pawani mittal :mathura"
+print(word.split(":"))
+
+t = "23456"
+print(t.split())  # ['23456']

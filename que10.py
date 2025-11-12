@@ -1,3 +1,5 @@
-n = 5
-for i in range(n):
-    print("*" * (i + 1) + " " * (2 * (n - i - 1)) + "*" * (i + 1))
+A = [3, 5, 1, 2, 1, 2]
+rev = []
+for i in range(len(A) - 1, -1, -1):
+    rev.append(A[i])
+print(rev)  # Output: [2, 1, 2, 1, 5, 3]
