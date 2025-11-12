@@ -1,12 +1,4 @@
-T = int(input())
-for _ in range(T):
-    s = input().lower()
-    vowels = 0
-    consonants = 0
-    for ch in s:
-        if ch.isalpha():
-            if ch in "aeiou":
-                vowels += 1
-            else:
-                consonants += 1
-    print(vowels, consonants)
+N = int(input("Enter the size of the array: "))
+sub = (N * (N + 1)) // 2
+
+print(f"number of subarrays:", sub)
